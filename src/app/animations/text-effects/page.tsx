@@ -9,7 +9,7 @@ export default function Page() {
 
   const handleSpeed = (e: any) => {
     setSpeed(e.target.id);
-    setAnimationKey((prev) => prev + 1);
+    setAnimationKey((prev: number) => prev + 1);
   };
 
   return (
