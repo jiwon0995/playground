@@ -61,6 +61,7 @@ export default function ScrollControl({ children, page, setPage }: any) {
 
   return (
     <div style={{ height: 'calc(var(--vh, 1vh) * 100)' }}>
+      {/* @ts-ignore  */}
       <div style={style}>{children}</div>
     </div>
   );
